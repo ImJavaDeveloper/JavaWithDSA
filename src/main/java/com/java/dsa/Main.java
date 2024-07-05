@@ -1,5 +1,6 @@
 package com.java.dsa;
 
+import com.java.dsa.array.SellStockProblem;
 import com.java.dsa.array.TwoSumProblem;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -8,6 +9,9 @@ public class Main {
     public static void main(String[] args) {
         Main main=new Main();
         main.checkTwoSumProblem();
+
+        //
+        main.sellStockProblem();
 
     }
 
@@ -20,4 +24,11 @@ public class Main {
         System.out.println(twoSumProblem.isExistSumOfTwoNumberEqualToGiven(a,x));
         System.out.println(twoSumProblem.isExistSumOfTwoNumberEqualToGiven(a,y));
     }
+    void sellStockProblem(){
+        SellStockProblem sellStockProblem=new SellStockProblem();
+        int prices[] = { 7, 1, 5, 6, 4 };
+        int max_profit = sellStockProblem.getMaxProfile(prices);
+        System.out.println(max_profit);
+    }
+
 }
