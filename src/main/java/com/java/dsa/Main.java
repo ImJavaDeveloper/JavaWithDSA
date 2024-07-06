@@ -1,5 +1,6 @@
 package com.java.dsa;
 
+import com.java.dsa.array.DuplicateElement;
 import com.java.dsa.array.SellStockProblem;
 import com.java.dsa.array.TwoSumProblem;
 
@@ -12,6 +13,9 @@ public class Main {
 
         //
         main.sellStockProblem();
+
+        //findDuplicateElement
+        main.findDuplicateElement();
 
     }
 
@@ -29,6 +33,12 @@ public class Main {
         int prices[] = { 7, 1, 5, 6, 4 };
         int max_profit = sellStockProblem.getMaxProfile(prices);
         System.out.println(max_profit);
+    }
+
+    void findDuplicateElement(){
+        DuplicateElement duplicateElement=new DuplicateElement();
+        int array[]={1, 2, 3, 6, 3, 6, 1};
+        System.out.println(duplicateElement.findDuplicate(array));
     }
 
 }
