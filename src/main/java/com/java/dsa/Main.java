@@ -4,6 +4,7 @@ import com.java.dsa.array.DuplicateElement;
 import com.java.dsa.array.MissingNumber;
 import com.java.dsa.array.SellStockProblem;
 import com.java.dsa.array.TwoSumProblem;
+import com.java.dsa.array.leetCode.MergeAlternately;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -20,6 +21,9 @@ public class Main {
 
         //findMissingNumber
         main.findMissingNumber();
+
+        //getMergeAlternately
+        main.getMergeAlternately();
 
     }
 
@@ -49,6 +53,14 @@ public class Main {
         MissingNumber missingNumber=new MissingNumber();
         int array[]={3, 0, 1, 4};
         System.out.println(missingNumber.findMissingNumber(array));
+    }
+
+    void getMergeAlternately()
+    {
+        MergeAlternately mergeAlternately=new MergeAlternately();
+        String s1="abc";
+        String s2="xyz";
+        System.out.println(mergeAlternately.mergeAlternately(s1,s2));
     }
 
 }
