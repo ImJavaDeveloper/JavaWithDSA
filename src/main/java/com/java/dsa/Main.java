@@ -1,6 +1,7 @@
 package com.java.dsa;
 
 import com.java.dsa.array.DuplicateElement;
+import com.java.dsa.array.MissingNumber;
 import com.java.dsa.array.SellStockProblem;
 import com.java.dsa.array.TwoSumProblem;
 
@@ -16,6 +17,9 @@ public class Main {
 
         //findDuplicateElement
         main.findDuplicateElement();
+
+        //findMissingNumber
+        main.findMissingNumber();
 
     }
 
@@ -39,6 +43,12 @@ public class Main {
         DuplicateElement duplicateElement=new DuplicateElement();
         int array[]={1, 2, 3, 6, 3, 6, 1};
         System.out.println(duplicateElement.findDuplicate(array));
+    }
+
+    void findMissingNumber(){
+        MissingNumber missingNumber=new MissingNumber();
+        int array[]={3, 0, 1, 4};
+        System.out.println(missingNumber.findMissingNumber(array));
     }
 
 }
