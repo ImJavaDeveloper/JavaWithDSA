@@ -5,6 +5,7 @@ import com.java.dsa.array.MissingNumber;
 import com.java.dsa.array.SellStockProblem;
 import com.java.dsa.array.TwoSumProblem;
 import com.java.dsa.array.leetCode.GreatestCommonDivisorString;
+import com.java.dsa.array.leetCode.KidsWithGreaterNumberOfCandies;
 import com.java.dsa.array.leetCode.MergeAlternately;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -27,6 +28,8 @@ public class Main {
         main.getMergeAlternately();
 
         main.testGreatestCommonDivisorString();
+
+        main.testKidsWithGreaterNumberOfCandies();
 
     }
 
@@ -68,6 +71,7 @@ public class Main {
 
     void testGreatestCommonDivisorString()
     {
+        System.out.println("******************** Testing GreatestCommonDivisorString Problem");
         GreatestCommonDivisorString greatestCommonDivisorString=new GreatestCommonDivisorString();
         String s1="ABABAB";
         String s2="ABAB";
@@ -81,7 +85,21 @@ public class Main {
         String s7="ABCEFG";
         String s8="ABC";
         System.out.println("GreatestCommonDivisorString:"+greatestCommonDivisorString.gcdOfStrings(s7,s8));
+        System.out.println("******************** Testing GreatestCommonDivisorString Problem Completed\n");
+    }
 
+    void testKidsWithGreaterNumberOfCandies()
+    {
+        System.out.println("******************** Testing KidsWithGreaterNumberOfCandies Problem");
+        int candies1[]={2,3,5,1,3};
+        int candies2[]={4,2,1,1,2};
+        int candies3[]={2,8,7};
+
+        KidsWithGreaterNumberOfCandies kidsWithGreaterNumberOfCandies=new KidsWithGreaterNumberOfCandies();
+        System.out.println(kidsWithGreaterNumberOfCandies.kidsWithCandies(candies1,3));
+        System.out.println(kidsWithGreaterNumberOfCandies.kidsWithCandies(candies2,3));
+        System.out.println(kidsWithGreaterNumberOfCandies.kidsWithCandies(candies3,3));
+        System.out.println("******************** Testing KidsWithGreaterNumberOfCandies Problem Completed");
     }
 
 
