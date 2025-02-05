@@ -24,6 +24,8 @@ public class GreatestCommonDivisorString {
                 return "";
             }
             // Repeat the Euclidean algorithm until the second string divides the first
+            String s1="ABABAB";
+            String s2="ABAB";
 
             while (len2 > 0) {
                 int temp = len2;

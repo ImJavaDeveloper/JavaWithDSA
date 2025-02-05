@@ -13,11 +13,12 @@ public class SellStockProblem {
             int max_profit=0;
             for(int i=1;i<len;i++)
             {
-                //checkin
+                //checking if the current price is less than the buy price
                 if(buy>prices[i])
                 {
                     buy=prices[i];
                 }
+                //checking if the current price - buy price is greater than the max profit
                 else if (prices[i]-buy>max_profit) {
                     max_profit=prices[i]-buy;
                 }

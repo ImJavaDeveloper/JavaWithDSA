@@ -28,7 +28,7 @@ public class Main {
         main.getMergeAlternately();
 
         main.testGreatestCommonDivisorString();
-
+        //testKidsWithGreaterNumberOfCandies
         main.testKidsWithGreaterNumberOfCandies();
 
     }
@@ -63,10 +63,12 @@ public class Main {
 
     void getMergeAlternately()
     {
+        System.out.println("START:******************** Testing MergeAlternately Problem");
         MergeAlternately mergeAlternately=new MergeAlternately();
         String s1="abc";
         String s2="xyz";
         System.out.println(mergeAlternately.mergeAlternately(s1,s2));
+        System.out.println("END:******************** Testing MergeAlternately Problem");
     }
 
     void testGreatestCommonDivisorString()
