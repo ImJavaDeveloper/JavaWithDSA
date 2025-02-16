@@ -4,9 +4,9 @@ import com.java.dsa.array.DuplicateElement;
 import com.java.dsa.array.MissingNumber;
 import com.java.dsa.array.SellStockProblem;
 import com.java.dsa.array.TwoSumProblem;
-import com.java.dsa.array.leetCode.GreatestCommonDivisorString;
-import com.java.dsa.array.leetCode.KidsWithGreaterNumberOfCandies;
-import com.java.dsa.array.leetCode.MergeAlternately;
+import com.java.dsa.leetCode.GreatestCommonDivisorString;
+import com.java.dsa.leetCode.KidsWithGreaterNumberOfCandies;
+import com.java.dsa.leetCode.MergeAlternately;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -46,7 +46,7 @@ public class Main {
         SellStockProblem sellStockProblem=new SellStockProblem();
         int prices[] = { 7, 1, 5, 6, 4 };
         int max_profit = sellStockProblem.getMaxProfile(prices);
-        System.out.println(max_profit);
+        System.out.println("Max Profit:"+max_profit);
     }
 
     void findDuplicateElement(){

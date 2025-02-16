@@ -1,9 +1,13 @@
 package com.java.dsa.array;
 
 
-/*Given an array prices[] of length N, representing the prices of the stocks on different days, the
+/*
+Given an array prices[] of length N, representing the prices of the stocks on different days, the
 task is to find the maximum profit possible by buying and selling the stocks on different days when
-at most one transaction is allowed.*/
+at most one transaction is allowed.
+int prices[] = { 7, 1, 5, 6, 4 };
+Expected Profit: 5
+*/
 public class SellStockProblem {
 
         public int getMaxProfile(int []prices)

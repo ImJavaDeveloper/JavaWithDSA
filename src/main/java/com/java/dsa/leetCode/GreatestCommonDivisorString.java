@@ -1,4 +1,4 @@
-package com.java.dsa.array.leetCode;
+package com.java.dsa.leetCode;
 
 public class GreatestCommonDivisorString {
 

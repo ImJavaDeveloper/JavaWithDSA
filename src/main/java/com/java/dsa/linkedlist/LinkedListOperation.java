@@ -2,6 +2,8 @@ package com.java.dsa.linkedlist;
 
 public class LinkedListOperation {
 
+    ///Node1-->next---->Node2-->next----->Node3-->null
+    // Result
     public Node reverseLinkedList(Node head) {
         Node prev = null;
         Node current = head;
